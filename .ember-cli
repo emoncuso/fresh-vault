@@ -4,6 +4,7 @@
     rather than JavaScript by default, when a TypeScript version of a given blueprint is available.
   */
   "isTypeScriptProject": true,
+  "output-path": "/Users/emoncuso/hashicorp/vault-ui",
 
   /**
     Setting `componentAuthoringFormat` to "strict" will force the blueprint generators to generate GJS

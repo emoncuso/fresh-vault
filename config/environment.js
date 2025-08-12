@@ -4,7 +4,7 @@ module.exports = function (environment) {
   const ENV = {
     modulePrefix: 'fresh-vault',
     environment,
-    rootURL: '/',
+    rootURL: '/ui/',
     locationType: 'history',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
@@ -17,6 +17,10 @@ module.exports = function (environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    'ember-simple-auth': {
+      routeAfterAuthentication: 'authenticated.overview',
     },
   };
 

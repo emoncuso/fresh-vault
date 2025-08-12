@@ -40,7 +40,6 @@
     "@ember-data/request-utils": "~5.6.0",
     "@ember-data/serializer": "~5.6.0",
     "@ember-data/store": "~5.6.0",
-    "@warp-drive/ember": "~5.6.0",
     "@ember/optional-features": "^2.2.0",
     "@ember/test-helpers": "^5.2.2",
     "@embroider/macros": "^1.18.1",
@@ -54,6 +53,7 @@
     "@types/qunit": "^2.19.12",
     "@types/rsvp": "^4.0.9",
     "@warp-drive/core-types": "~5.6.0",
+    "@warp-drive/ember": "~5.6.0",
     "broccoli-asset-rev": "^3.0.0",
     "concurrently": "^9.2.0",
     "ember-auto-import": "^2.10.0",
@@ -67,12 +67,14 @@
     "ember-cli-inject-live-reload": "^2.1.0",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-terser": "^4.0.2",
+    "ember-concurrency": "^4.0.6",
     "ember-data": "~5.6.0",
     "ember-load-initializers": "^3.0.1",
     "ember-modifier": "^4.2.2",
     "ember-page-title": "^9.0.2",
     "ember-qunit": "^9.0.3",
     "ember-resolver": "^13.1.1",
+    "ember-simple-auth": "^8.0.0",
     "ember-source": "~6.6.0",
     "ember-template-imports": "^4.3.0",
     "ember-template-lint": "^6.1.0",
@@ -100,5 +102,6 @@
   },
   "ember": {
     "edition": "octane"
-  }
+  },
+  "packageManager": "pnpm@9.15.3+sha512.1f79bc245a66eb0b07c5d4d83131240774642caaa86ef7d0434ab47c0d16f66b04e21e0c086eb61e62c77efc4d7f7ec071afad3796af64892fae66509173893a"
 }
