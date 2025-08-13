@@ -3,7 +3,9 @@ import { service } from '@ember/service';
 import { on } from '@ember/modifier';
 
 import { task } from 'ember-concurrency';
-import { FormInput, Button, Tile } from 'carbon-components-ember/components';
+import Button from 'carbon-components-ember/components/button';
+import FormInput from 'carbon-components-ember/components/form-input';
+import Tile from 'carbon-components-ember/components/tile';
 
 import type SessionService from 'fresh-vault/services/session';
 
