@@ -112,5 +112,17 @@
   "exports": {
     "./tests/*": "./tests/*",
     "./*": "./app/*"
+  },
+  "dependencies": {
+    "@carbon/colors": "^11.38.0",
+    "@carbon/elements": "^11.73.0",
+    "@carbon/grid": "^11.41.0",
+    "@carbon/icons": "^11.65.0",
+    "@carbon/layout": "^11.39.0",
+    "@carbon/motion": "^11.33.0",
+    "@carbon/pictograms": "^12.58.0",
+    "@carbon/styles": "^1.88.0",
+    "@carbon/themes": "^11.58.0",
+    "@carbon/type": "^11.45.0"
   }
 }

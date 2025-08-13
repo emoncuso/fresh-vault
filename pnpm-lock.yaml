@@ -7,6 +7,37 @@ settings:
 importers:
 
   .:
+    dependencies:
+      '@carbon/colors':
+        specifier: ^11.38.0
+        version: 11.38.0
+      '@carbon/elements':
+        specifier: ^11.73.0
+        version: 11.73.0
+      '@carbon/grid':
+        specifier: ^11.41.0
+        version: 11.41.0
+      '@carbon/icons':
+        specifier: ^11.65.0
+        version: 11.65.0
+      '@carbon/layout':
+        specifier: ^11.39.0
+        version: 11.39.0
+      '@carbon/motion':
+        specifier: ^11.33.0
+        version: 11.33.0
+      '@carbon/pictograms':
+        specifier: ^12.58.0
+        version: 12.58.0
+      '@carbon/styles':
+        specifier: ^1.88.0
+        version: 1.88.0(sass@1.90.0)
+      '@carbon/themes':
+        specifier: ^11.58.0
+        version: 11.58.0
+      '@carbon/type':
+        specifier: ^11.45.0
+        version: 11.45.0
     devDependencies:
       '@babel/core':
         specifier: ^7.28.0
@@ -820,6 +851,9 @@ packages:
   '@carbon/colors@11.38.0':
     resolution: {integrity: sha512-5cTvIZalgauRalk4g15rDvYmNufuZWsGh6WTBCLlvynyLRnXbS6wpNrhYj9D+HTJb0jzon+6nYcMJ5H8kfUNqw==}
 
+  '@carbon/elements@11.73.0':
+    resolution: {integrity: sha512-W0K4jHm+D7/wuczRD2jIeYCmTrQLZ4GrSWnItU+hvbfufM2P5bauLNXm1phVkg0HpkvhUu0ZgAzpQi8pnfUX5g==}
+
   '@carbon/feature-flags@0.15.0':
     resolution: {integrity: sha512-pUuJ+iQ+jkrfP4+nFgsBqM3qNsgKY59y0dZX1y2amjROFOo6fn5s/L1ZqAXkLWvmtssOiR1VWbYg1zk4IMTv+g==}
 
@@ -843,6 +877,9 @@ packages:
 
   '@carbon/motion@11.33.0':
     resolution: {integrity: sha512-ZfWSbIfYdjfgUPfFiPVE0cYjIHiQljAaxuOhElnLmFqNMhBZengnhLiIgKgAMZg1cy5Iog/0T4b+obCFmEuKeg==}
+
+  '@carbon/pictograms@12.58.0':
+    resolution: {integrity: sha512-j01a/jVs8rvstyY4PHG4e5tqxgGrw121dds6sgQQhXDO/IRsasjzq45lGTZ8wrm0TFUX1UMnXDRjFtvCRHJA5Q==}
 
   '@carbon/styles@1.88.0':
     resolution: {integrity: sha512-Hwm5FQqyQSJ3sBQuCA6Tylv7qWPTCNooPYXUYLOQ536bo0crlEoeV0jIm84t+WW4cAAyHtuMKKqocCTW4oHz+g==}
@@ -8434,6 +8471,17 @@ snapshots:
     dependencies:
       '@ibm/telemetry-js': 1.9.1
 
+  '@carbon/elements@11.73.0':
+    dependencies:
+      '@carbon/colors': 11.38.0
+      '@carbon/grid': 11.41.0
+      '@carbon/icons': 11.65.0
+      '@carbon/layout': 11.39.0
+      '@carbon/motion': 11.33.0
+      '@carbon/themes': 11.58.0
+      '@carbon/type': 11.45.0
+      '@ibm/telemetry-js': 1.9.1
+
   '@carbon/feature-flags@0.15.0': {}
 
   '@carbon/feature-flags@0.30.0':
@@ -8460,6 +8508,10 @@ snapshots:
       '@ibm/telemetry-js': 1.9.1
 
   '@carbon/motion@11.33.0':
+    dependencies:
+      '@ibm/telemetry-js': 1.9.1
+
+  '@carbon/pictograms@12.58.0':
     dependencies:
       '@ibm/telemetry-js': 1.9.1
 
